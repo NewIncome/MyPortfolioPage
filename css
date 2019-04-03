@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body {
+	background: #e6e6e6;
+}
+/* US.9. - @ Media Query */
+/* US.10. - Height of welcome section = Height of the ViewPort */
+
+nav {
+	background: #6699ff;
+	position: fixed;
+	width: 100%;
+}
+nav ul {
+	display: flex;
+	font-size: 1.4em;
+	font-weight: bolder;
+	justify-content: flex-end;
+}
+nav ul a {
+	letter-spacing: 2px;
+	list-style: none;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+/*   -----     --     WELCOME Section     --     -----   */
+#welcome-section {
+	background: #6699ff;
+	box-sizing: border-box;
+	color: white;
+	height: 100vh;
+	padding-top: 35vh;
+}
+
+h1 {
+	color: #000;
+	font-size: 100px;
+}
+
+/*   -----     --     PROJECTS Section     --     -----   */
+#Projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+	width: 80%;
+}
+#Projects a {
+	border: 2px solid rgb(100, 100, 255);
+	height: 150px;
+	margin: 50px;
+	width: 270px;
+}
+#Projects a:last-child {
+	animation: roundCorners 10s ease-in 3s infinite normal;
+	background: hsl(50, 100%, 70%);
+	border: 3px solid hsl(240, 100%, 70%);
+	border-radius: 10px;
+	color: #262626;
+	font-family: Verdana;
+	font-weight: bolder;
+	height: 20px;
+	letter-spacing: 2px;
+	padding: 10px 10px;
+	margin: 60px 100px;
+	text-decoration: none;
+	width: 120px;
+}
+
+/*Animation: name dur timFunc dly itCnt direction*/
+/*border-radius property is Not animatable.*/
+@keyframes roundCorners {
+	/*0% {background: hsl(240, 100%, 70%);
+		border-color: hsl(70, 100%, 70%);}*/
+	50% {background: hsl(250, 100%, 70%);
+		border-color: hsl(50, 100%, 70%);
+		color: white;}
+	100% {background: hsl(50, 100%, 70%);
+		border-color: hsl(250, 100%, 70%)
+		color: #262626;}
+}
+/*   -----     --     PROJECTS Section     --     -----   */
+#Contact {
+	background: #a6ff4d;
+	height: 100vh;
+	width: 100%;
+}
+
+footer {
+	background: #73e600;
+	height: 80px; /**/
+	width: 100%;
+}* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+body {
+	background: #e6e6e6;
+}
+/* US.9. - @ Media Query */
+/* US.10. - Height of welcome section = Height of the ViewPort */
+
+nav {
+	background: #6699ff;
+	position: fixed;
+	width: 100%;
+}
+nav ul {
+	display: flex;
+	font-size: 1.4em;
+	font-weight: bolder;
+	justify-content: flex-end;
+}
+nav ul a {
+	letter-spacing: 2px;
+	list-style: none;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+/*   -----     --     WELCOME Section     --     -----   */
+#welcome-section {
+	background: #6699ff;
+	box-sizing: border-box;
+	color: white;
+	height: 100vh;
+	padding-top: 35vh;
+}
+
+h1 {
+	color: #000;
+	font-size: 100px;
+}
+
+/*   -----     --     PROJECTS Section     --     -----   */
+#Projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: auto;
+	width: 80%;
+}
+#Projects a {
+	border: 2px solid rgb(100, 100, 255);
+	height: 150px;
+	margin: 50px;
+	width: 270px;
+}
+#Projects a:last-child {
+	animation: roundCorners 10s ease-in 3s infinite normal;
+	background: hsl(50, 100%, 70%);
+	border: 3px solid hsl(240, 100%, 70%);
+	border-radius: 10px;
+	color: #262626;
+	font-family: Verdana;
+	font-weight: bolder;
+	height: 20px;
+	letter-spacing: 2px;
+	padding: 10px 10px;
+	margin: 60px 100px;
+	text-decoration: none;
+	width: 120px;
+}
+
+/*Animation: name dur timFunc dly itCnt direction*/
+/*border-radius property is Not animatable.*/
+@keyframes roundCorners {
+	/*0% {background: hsl(240, 100%, 70%);
+		border-color: hsl(70, 100%, 70%);}*/
+	50% {background: hsl(250, 100%, 70%);
+		border-color: hsl(50, 100%, 70%);
+		color: white;}
+	100% {background: hsl(50, 100%, 70%);
+		border-color: hsl(250, 100%, 70%)
+		color: #262626;}
+}
+/*   -----     --     PROJECTS Section     --     -----   */
+#Contact {
+	background: #a6ff4d;
+	height: 100vh;
+	width: 100%;
+}
+
+footer {
+	background: #73e600;
+	height: 80px; /**/
+	width: 100%;
+}
